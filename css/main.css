@@ -1,0 +1,77 @@
+#user-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+.user-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 25%;
+}
+
+.user-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.user-card-container {
+  padding: 2px 16px;
+}
+
+.icon-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #0c9;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.icon-float:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icon-unfloat {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  background-color: #0c9;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.icon-unfloat:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+i {
+  margin-top: 22px;
+}
+
+#user-form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-user > h1 {
+  text-align: center;
+}
+
+.header-user > h1 {
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header-user">
+      <a href="./index.html" class="icon-unfloat">
+        <i class="fa fa-arrow-left"></i>
+      </a>
+      <h1 id="form-title"></h1>
+    </div>
+
+    <form id="user-form" action="./index.html">
+      <label>User ID</label><input id="userId" type="text" disabled />
+      <label>First Name</label><input id="fName" type="text" required />
+      <label>Last Name</label><input id="lName" type="text" required />
+      <label>Email</label><input id="email" type="email" required />
+      <label>Number</label
+      ><input id="mobile" type="tel" pattern="[0-9]{10}" required />
+    </form>
+
+    <script type="text/javascript" src="./js/user.js"></script>
+  </body>
+</html>
